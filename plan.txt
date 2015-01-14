@@ -1,0 +1,26 @@
+Things To Do (Necessary):
+	1. Implement choosers into Attack
+	2. Fix bug detected in move
+	3. Finish coding Attack
+	4. Update code to include limits on what turtle moves based on who is doing the actions (player 1 or 2?)
+
+Things To Do (not immediately necessary)
+	1. Create more turtles of different shapes
+	2. Talk about which spells to use
+	3. 
+
+Things To Consider
+	1. Creating different skillsets (different characters with different spells -- that will put the focus on spells instead though)
+	2. Creating barriers and obstacles
+	3. Combo-abilities? (e.g. two-turn aoe spell + teleport to middle of the spell (on 2nd turn) = aoe dmg on pre-teleport location instead (also focuses on spells instead).
+	4. Distinguishing between the two players by color
+
+Code:
+	1. Setup
+	2. Go
+	   a. move: operated by mouse (coded). Need to decide how to implement moveyet? to stop from spam-clicking, but also give the option of not-moving
+	   b. attack: Either operated by mouse or by button (both with choosers). Ifelse statements let code know which chooser is used. Same problem as move
+	   c. spells: operated by mouse. 
+	   d. EndDecisions: (Coded)
+	   e. View: will reveal all hidden turtles and show what happened. 
+		I. may want to create labels to say dmg taken 
